@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightWeb Solutions</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/scr_for.js" defer></script>
+</head>
+<body>
+  <div id="cursor"></div>
+  <header>
+    <a href="/"><img src="./img/logo1.png" alt="logo" class="logo1"></a>
+    <nav>
+      <ul class="main_menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form class="form_box" action="https://api.staticforms.xyz/submit" method="post">
+  <h1>お問い合わせフォーム</h1>
+    <input type="hidden" name="accessKey" value="sf_5hc8fiib59ng433kai51g4bh">
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/form_after.html">
+    <div class="form_item">
+      <label>お名前</label>
+      <input type="text" name="name" placeholder="例）山田 太郎">
+    </div>
+    <div class="form_item">
+      <label>メールアドレス</label>
+      <input type="email" placeholder="例）example@example.com">
+    </div>
+    <div class="form_item">
+      <label>お問い合わせ内容</label>
+      <textarea rows="7" name="message" placeholder="お問い合わせ内容をご入力ください。"></textarea>
+    </div>
+    <div class="form_item">
+      <button type="submit">送信する</button>
+    </div>
+  </form>
+  
+  <footer>
+    <img src="./img/logo3.png" alt="logo">
+    <nav>
+      <ul class="main_menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    &copy;BrightWeb Solutions
+  </footer>
+</body>
+</html>
